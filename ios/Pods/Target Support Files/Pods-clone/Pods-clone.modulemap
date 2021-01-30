@@ -1,0 +1,6 @@
+module Pods_clone {
+  umbrella header "Pods-clone-umbrella.h"
+
+  export *
+  module * { export * }
+}
