@@ -16,14 +16,21 @@ import HomeScreen from './src/screens/Home';
 import Post from './src/components/Post';
 
 
-import Entype from 'react-native-vector-icons/Entypo'
+import Entype from 'react-native-vector-icons/Entypo';
+import feed from './assets/data/feed';
+
+
+const post1 = feed[0];
+const post2 = feed[1];
+// 어레이 형식이기에 인덱스 형식으로 불러오기
 const App: () => React$Node = () => {
-  return (
-    <>
+return (
+  <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         {/* <HomeScreen /> */}
-        <Post />
+        <Post post={post2}/>
+        
       </SafeAreaView>
     </>
   );
