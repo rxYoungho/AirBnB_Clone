@@ -14,11 +14,13 @@ import {
 
 import HomeScreen from './src/screens/Home';
 import SearchResultsScreen from './src/screens/SearchResults'
+import DestinationSearchScreen from './src/screens/DestinationSearch';
+
 import Post from './src/components/Post';
 
 
 
-import Entype from 'react-native-vector-icons/Entypo';
+import Entypo from 'react-native-vector-icons/Entypo';
 import feed from './assets/data/feed';
 
 
@@ -32,8 +34,8 @@ return (
       <SafeAreaView>
         {/* <HomeScreen /> */}
         {/* <Post post={post2}/> */}
-        <SearchResultsScreen/>
-          
+        {/* <SearchResultsScreen/> */}
+        <DestinationSearchScreen/>
       </SafeAreaView>
     </>
   );
